@@ -15,17 +15,38 @@ body{
 }
 
 input{
-    width: 100%;
+    border: none;
+    width: 40vh;
     margin-bottom: 1rem;
-    
+    padding: 1vh;
     color:gray;
     border-radius: 5px;
 }
 
+input:hover{
+    color: blue;
+    text-decoration: #4682B4;
+}
 
 button{
-    color:gray;
+    border: none;
+    background-color: #87CEFA;
+    border: 1px solid #4682B4;
+    border-radius: 5px;
+    padding: 2vh;
+    text-decoration: none;
+    font-weight: bold;
+    color:#4682B4;
     cursor: pointer;
     margin-top: 1rem;
-    justify-items: center;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: white;
+}
+
+button:active{
+    transition: 0.10s;
+    background-color: #87CEFA;
 }
